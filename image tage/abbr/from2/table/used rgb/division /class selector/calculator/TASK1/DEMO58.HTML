@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STyle>
+        body 
+        {
+            background: red;
+        } 
+        #outer 
+        {
+            height: 200px;
+            width: 200px;
+            border: 20px solid gray;
+            border-radius: 50px;
+            margin: 100px auto;
+            border-top: solid yellowgreen;
+            position: relative;
+            transition: all 1s;
+            animation-name: loader;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+     #dot 
+     {
+        height: 30px;
+        width: 30px;
+        background: rgb(red, green, blue);
+        border-radius: 50px;
+        position: absolute;
+        right: 0px;
+        top:20px ;
+        box-shadow: 0pxm 0px 1px 5px  rgba(154,205,50,.8), 0px 0px 1px 10px gba(154,205,50,.6),0px 0px 10px 20px rgbagba(154,205,50,.4),; 
+
+     }
+     #outer:hover
+     {
+        transform: rotate(360deg);
+        transition: all 1s;
+     }
+     @keyframes loader
+      {
+        from {
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+      }
+    </STyle>
+</head>
+<body>
+    <div id="outer">
+        <div id="dot"></div>
+
+    </div>
+</body>
+</html>

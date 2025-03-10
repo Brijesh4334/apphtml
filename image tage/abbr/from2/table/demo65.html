@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            height: 100px;
+            width: 100px;
+            animation: 2s infinite;
+        }
+        .a
+        {
+            background-color: red;
+            animation-name: xyz;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+
+        }
+        .b
+        {
+            background-color:orange;
+            animation: xyz 2s normal infinite;
+        }
+        .c
+        {
+            background-color:yellow;
+            animation: xyz ease-in infinite;
+        }
+        .d
+        {
+            background-color: yellowgreen;
+            animation: xyz 2s ease-in-out infinite;
+        }
+        .e
+        {
+            background-color: green;
+            animation: xyz 2s ease-in-out infinite;
+        }
+        .f
+        {
+            background-color:gold;
+            animation: xyz 2s steps(10) infinite;
+
+        }
+        @keyframes xyz
+        {
+            from{
+                width: 50px;
+            }
+            to{
+                width: 1200px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="e"></div>
+    <div class="f"></div>
+
+
+
+
+
+    
+</body>
+</html>

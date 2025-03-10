@@ -1,0 +1,11 @@
+p{
+    color: aqua;
+    background-color: black;
+    text-align: justify;
+    text-transform: capitalize;
+}
+h1{
+    background-color: aqua;
+    border: 5px double black;
+    text-align: center;
+}

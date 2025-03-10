@@ -1,0 +1,16 @@
+selector :hover 
+{
+    propeerty:value;
+        propeerty:value;
+
+}
+transition: propeerty time in second , propeerty time in second 
+Exa:
+--------
+transition:color 2s, text-shadow 5.5;
+
+transition:all time in second;
+transition:all 4s;
+
+box-shadow
+

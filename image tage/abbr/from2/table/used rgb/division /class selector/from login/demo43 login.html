@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login from</title>
+    <style>
+        body {
+            background: url(Bkg.jpeg);
+            background-size: cover;
+        }
+        #login {
+            height: 400px;
+            width: 650px;
+            background-color: rgba(0,0,0,2);
+            margin: 180px auto;
+            padding: 50px;
+            box-sizing: border-box;
+            font-size: 2px;
+            transition: all 1s;
+            color: aliceblue;
+            backdrop-filter: blu(2px);
+        }
+        .txt
+        {
+            height: 50px;
+            width: 100%;
+            margin-bottom: 10px;
+            border: none;
+            padding-left: 15px;
+            box-sizing: border-box;
+            color: blueviolet;
+            font-size: 17px;
+            background: transparent;
+            border-bottom: 5px solid purple;
+        }
+        #login.hover
+        
+        {
+
+            background: rgba(red, green, blue, alpha);
+            transition: all 1s;
+            color: red;
+            box-shadow: 0px 0px 0px 20px rgb(255,255,255,.8) 
+            0px 0px 0px 40px rgb(255,255,255,.6);
+            ;
+            
+
+            
+        }
+        ::placeholder {
+            color: purple;
+            color: aliceblue;
+        }
+        .btn{
+            height: 50px;
+            width: 25%;
+            background: purple;
+            border: none;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div id="login">
+     <div style="text-align: center;font:-size 30px;">login><b style="color: purple;"> </b></div>   
+     
+     <label> 
+        userid <br/>
+        <input type="email" class="txt" placeholder="userid"/>
+    </label> <br/>
+
+     <lable> 
+        password <br/>
+        <input type="password" class="txt" placeholder="password"/>
+
+     </label> <br/>
+     <input type="button" class="btn" value="LOGIN"/>
+    </div>
+</body>
+</html>

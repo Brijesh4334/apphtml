@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box
+        {
+            height: 500px;
+            width: 500px;
+            background-image:bubbles2;
+            animation: abc 2s infinite;
+            animation-play-state: running;
+            
+        }
+        #box:hover
+        {
+        animation-play-state: paused;
+        }
+@keyframes abc {
+    0%{
+        background-image: url(bubble);
+        background-size: cover;
+    }
+    20%{
+        background-image: url();
+        background-size: cover;
+
+    }
+    40%{
+        background-image: url();
+        background-size: cover;
+    }
+    60%{
+        background-image: url();
+        background-size: cover;
+    }
+    80%{
+        background-image: url();
+        background-size: cover;
+
+    }
+    100%{
+        background-image: url();
+    }
+    
+
+}       
+
+
+       
+       
+       
+
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    
+</body>
+</html>

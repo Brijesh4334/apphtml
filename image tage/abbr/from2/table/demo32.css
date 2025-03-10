@@ -1,0 +1,23 @@
+#a{
+    background-color: purple;
+    text-shadow: 2px 5px 5px blue;
+    text-align: center;
+    border: 20px;
+}
+#b {
+    background-color: peru;
+    text-shadow: 5px 20px 30px red;
+    text-align: center;
+}
+#c {
+    background-color: purple;
+    text-shadow: 2px5px 20px yellow;
+    text-align: center; border: 20px;
+}
+#d{
+    background-color: peru; text-shadow: 20px 20px 30px yellowgreen ;text-align: center;border: 
+}
+
+#e{
+    background-color: purple; text-shadow: 20px 20px 20px orangered;text-align: center;border: 
+}
